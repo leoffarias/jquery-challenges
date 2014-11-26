@@ -72,6 +72,10 @@ a:hover {
   display: block;
 }
 
+.stuck {
+  font-weight: bold;
+}
+
 @media (min-width: 481px) {
   button{
     display:none;
@@ -82,6 +86,9 @@ a:hover {
     display: block;
   }
   .nav-main {
+    display:none;
+  }
+  .nav-internal {
     display:none;
   }
 }

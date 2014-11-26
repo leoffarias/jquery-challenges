@@ -9,4 +9,7 @@ $(document).ready(function(){
 		$(this).next().slideToggle("slow");
 		$(".panel-content").not($(this).next()).slideUp("slow");
 	});
+
+	//challenge 3
+	$(".nav-internal").sticky({topSpacing:20, className:"stuck"});
 });
