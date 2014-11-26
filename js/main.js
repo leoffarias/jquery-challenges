@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 	//challenge 2
 	$(".panel-title").click(function(){
-		$(".panel-content").slideUp("slow");
 		$(this).next().slideToggle("slow");
+		$(".panel-content").not($(this).next()).slideUp("slow");
 	});
 });
